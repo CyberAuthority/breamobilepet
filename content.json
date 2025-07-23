@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Mobile Pet Grooming in Brea, CA | Dogs & Cats",
+    "description": "Mobile dog and cat grooming in Brea, CA. Fast, caring service at your doorstep. We treat your pets like family."
+  },
+  "hero": {
+    "headline": "Mobile Dog & Cat Grooming in Brea, CA",
+    "cta": "Book a Grooming Today"
+  },
+  "about": "At Brea Mobile Pet Grooming, we bring professional dog and cat grooming right to your doorstep. We value speed, convenience, and care for your pets just as much as you do!",
+  "services": [
+    {
+      "name": "Dog Grooming",
+      "summary": "Professional mobile dog grooming in Brea, CA — gentle care and thorough service at your convenience.",
+      "image": "images/service1.jpg",
+      "page": {
+        "headline": "Mobile Dog Grooming Services in Brea, CA",
+        "intro": "Our mobile dog grooming service in Brea, CA brings expert grooming to your home with ease and care.",
+        "details": [
+          "Our mobile grooming unit is fully equipped to handle all sizes and breeds. From baths to haircuts, we provide a spa-like experience for your furry friend right outside your home.",
+          "Each grooming session includes brushing, washing, drying, nail trimming, and ear cleaning. We focus on making the experience stress-free for your dog while ensuring they look and feel great.",
+          "We understand that your time is valuable, so we offer flexible scheduling and prompt service that keeps your dog happy without the hassle of a trip to the salon."
+        ],
+        "features": [
+          "No travel stress — we come to you",
+          "Safe, clean, and gentle grooming methods"
+        ],
+        "cta": "Book your mobile dog grooming session today and treat your pup to a stress-free spa day!"
+      }
+    },
+    {
+      "name": "Cat Grooming",
+      "summary": "Expert cat grooming services in Brea, CA — mobile convenience with calm, feline-friendly care.",
+      "image": "images/service2.jpg",
+      "page": {
+        "headline": "Mobile Cat Grooming Services in Brea, CA",
+        "intro": "Cat grooming in Brea, CA just got easier with our mobile service that caters to your cat's comfort.",
+        "details": [
+          "Our experienced groomers specialize in handling cats gently and professionally. Whether your cat needs a simple brush-out or a full grooming session, we’re equipped to help.",
+          "Our van is quiet, clean, and designed to minimize stress. Services include de-shedding, sanitary trims, nail clipping, and ear cleaning — all tailored for feline needs.",
+          "We know cats can be sensitive, so we work with patience and care to ensure a soothing experience from start to finish."
+        ],
+        "features": [
+          "Feline-friendly grooming techniques",
+          "Convenient in-home service for less stress"
+        ],
+        "cta": "Give your cat the care they deserve — schedule mobile grooming with us today!"
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah",
+      "quote": "My dog looks amazing and was so relaxed after the grooming!"
+    },
+    {
+      "name": "James",
+      "quote": "Super convenient and great with our nervous cat. Highly recommend!"
+    }
+  ],
+  "contact": {
+    "address": "375 Cliffwood Park St, Ste J, Brea, CA 92821",
+    "phone": "714-464-7780",
+    "hours": "Mon–Sat: 8am – 6pm",
+    "map": "https://maps.google.com/?q=375+Cliffwood+Park+St+Brea+Ca+92821+Ste+J"
+  }
+}
