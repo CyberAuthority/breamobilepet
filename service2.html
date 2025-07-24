@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile Cat Grooming Services in Brea, CA</title>
+  <meta name="description" content="Cat grooming in Brea, CA just got easier with our mobile service that caters to your cat's comfort.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+  <!-- change accent color by editing 'accent' class below -->
+  <style>
+    .accent { @apply text-teal-600; }
+    .accent-bg { @apply bg-teal-600 text-white; }
+  </style>
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <nav class="max-w-4xl mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="font-bold text-xl">Brea Mobile Pet Grooming</a>
+      <button id="nav-toggle" class="md:hidden focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <ul id="nav-menu" class="hidden md:flex space-x-6">
+        <li><a href="index.html" class="hover:underline">Home</a></li>
+        <li><a href="service1.html" class="hover:underline">Dog Grooming</a></li>
+        <li><a href="service2.html" class="hover:underline">Cat Grooming</a></li>
+      </ul>
+    </nav>
+    <ul id="nav-menu-mobile" class="md:hidden hidden bg-white border-t">
+      <li><a href="index.html" class="block px-4 py-2 border-b">Home</a></li>
+      <li><a href="service1.html" class="block px-4 py-2 border-b">Dog Grooming</a></li>
+      <li><a href="service2.html" class="block px-4 py-2">Cat Grooming</a></li>
+    </ul>
+  </header>
+  <main class="pt-20">
+    <section class="max-w-4xl mx-auto p-8">
+      <h1 class="text-4xl font-bold accent mb-6">Mobile Cat Grooming Services in Brea, CA</h1>
+      <p class="mb-4">Cat grooming in Brea, CA just got easier with our mobile service that caters to your cat's comfort.</p>
+      <div class="mb-4 space-y-4">
+        <p>Our experienced groomers specialize in handling cats gently and professionally. Whether your cat needs a simple brush-out or a full grooming session, we’re equipped to help.</p>
+        <p>Our van is quiet, clean, and designed to minimize stress. Services include de-shedding, sanitary trims, nail clipping, and ear cleaning — all tailored for feline needs.</p>
+        <p>We know cats can be sensitive, so we work with patience and care to ensure a soothing experience from start to finish.</p>
+      </div>
+      <ul class="list-disc pl-6 mb-6">
+        <li>Feline-friendly grooming techniques</li>
+        <li>Convenient in-home service for less stress</li>
+      </ul>
+      <img src="images/service2.jpg" alt="Cat grooming" class="w-full h-64 object-cover rounded shadow-lg mb-6" loading="lazy">
+      <a href="index.html" class="accent-bg px-6 py-3 rounded shadow-lg">Give your cat the care they deserve — schedule mobile grooming with us today!</a>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white p-6 text-center">
+    <nav class="mb-4">
+      <a href="index.html" class="hover:underline mr-4">Home</a>
+      <a href="service1.html" class="hover:underline">Dog Grooming</a>
+    </nav>
+    <p>Brea Mobile Pet Grooming</p>
+  </footer>
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const menu = document.getElementById('nav-menu-mobile');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
