@@ -2,43 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mobile Dog Grooming Services in Brea, CA</title>
   <meta name="description" content="Our mobile dog grooming service in Brea, CA brings expert grooming to your home with ease and care.">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans text-gray-800">
-  <!-- change accent color by editing 'accent' class below -->
-  <style>
-    .accent { @apply text-teal-600; }
-    .accent-bg { @apply bg-teal-600 text-white; }
-  </style>
-  <header class="bg-white shadow-md fixed w-full z-10">
-    <nav class="max-w-4xl mx-auto flex justify-between items-center p-4">
-      <a href="index.html" class="font-bold text-xl">Brea Mobile Pet Grooming</a>
-      <button id="nav-toggle" class="md:hidden focus:outline-none">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-      <ul id="nav-menu" class="hidden md:flex space-x-6">
+  <header class="bg-white shadow-md">
+    <nav class="max-w-5xl mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-xl font-bold">Brea Mobile Pet Grooming</a>
+      <ul class="flex space-x-4">
         <li><a href="index.html" class="hover:underline">Home</a></li>
         <li><a href="service1.html" class="hover:underline">Dog Grooming</a></li>
         <li><a href="service2.html" class="hover:underline">Cat Grooming</a></li>
       </ul>
     </nav>
-    <ul id="nav-menu-mobile" class="md:hidden hidden bg-white border-t">
-      <li><a href="index.html" class="block px-4 py-2 border-b">Home</a></li>
-      <li><a href="service1.html" class="block px-4 py-2 border-b">Dog Grooming</a></li>
-      <li><a href="service2.html" class="block px-4 py-2">Cat Grooming</a></li>
-    </ul>
   </header>
-  <main class="pt-20">
-    <section class="max-w-4xl mx-auto p-8">
-      <h1 class="text-4xl font-bold accent mb-6">Mobile Dog Grooming Services in Brea, CA</h1>
+
+  <main>
+    <section class="max-w-5xl mx-auto p-8">
+      <h1 class="text-4xl font-bold text-teal-600 mb-6">Mobile Dog Grooming Services in Brea, CA</h1>
       <p class="mb-4">Our mobile dog grooming service in Brea, CA brings expert grooming to your home with ease and care.</p>
-      <div class="mb-4 space-y-4">
+      <div class="space-y-4 mb-6">
         <p>Our mobile grooming unit is fully equipped to handle all sizes and breeds. From baths to haircuts, we provide a spa-like experience for your furry friend right outside your home.</p>
         <p>Each grooming session includes brushing, washing, drying, nail trimming, and ear cleaning. We focus on making the experience stress-free for your dog while ensuring they look and feel great.</p>
         <p>We understand that your time is valuable, so we offer flexible scheduling and prompt service that keeps your dog happy without the hassle of a trip to the salon.</p>
@@ -47,23 +32,27 @@
         <li>No travel stress — we come to you</li>
         <li>Safe, clean, and gentle grooming methods</li>
       </ul>
-      <img src="images/service1.jpg" alt="Dog grooming" class="w-full h-64 object-cover rounded shadow-lg mb-6" loading="lazy">
-      <a href="index.html" class="accent-bg px-6 py-3 rounded shadow-lg">Book your mobile dog grooming session today and treat your pup to a stress-free spa day!</a>
+      <img src="images/service1.jpg" alt="Dog grooming" class="w-full h-64 object-cover rounded shadow mb-6" loading="lazy">
+      <a href="index.html" class="bg-teal-600 text-white px-6 py-3 rounded shadow">Book your mobile dog grooming session today and treat your pup to a stress-free spa day!</a>
+    </section>
+
+    <section class="bg-gray-50 py-12 mt-8">
+      <div class="max-w-3xl mx-auto p-8">
+        <h2 class="text-3xl font-bold text-teal-600 mb-4">Contact Us</h2>
+        <form action="https://formspree.io/f/mwkgrgqy" method="POST" class="space-y-4">
+          <input type="text" name="name" placeholder="Name" required class="w-full border p-2 rounded">
+          <input type="email" name="email" placeholder="Email" required class="w-full border p-2 rounded">
+          <textarea name="message" placeholder="Tell us about your dog" required class="w-full border p-2 rounded h-32"></textarea>
+          <button type="submit" class="bg-teal-600 text-white px-4 py-2 rounded">Send Message</button>
+        </form>
+      </div>
     </section>
   </main>
-  <footer class="bg-gray-800 text-white p-6 text-center">
-    <nav class="mb-4">
-      <a href="index.html" class="hover:underline mr-4">Home</a>
-      <a href="service2.html" class="hover:underline">Cat Grooming</a>
-    </nav>
+
+  <footer class="bg-gray-800 text-white text-center p-6">
     <p>Brea Mobile Pet Grooming</p>
+    <p>375 Cliffwood Park St, Ste J, Brea, CA 92821</p>
+    <p>714-464-7780</p>
   </footer>
-  <script>
-    const toggle = document.getElementById('nav-toggle');
-    const menu = document.getElementById('nav-menu-mobile');
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-  </script>
 </body>
 </html>
